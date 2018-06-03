@@ -9,7 +9,7 @@
     "serve": "node server.js",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "start": "node server.js"
+    "start": "node server.js",
     "heroku-postbuild": "yarn run build:prod"
   },
   "pre-commit": [
